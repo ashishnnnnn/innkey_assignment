@@ -1,0 +1,24 @@
+.pagenate button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  border: 1px solid;
+  background-color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.pagenate button:disabled {
+  cursor: not-allowed;
+}
+
+.pagenate button.active {
+  background-color: rgb(172, 172, 172);
+}
+.pagenate {
+  display: flex;
+  gap: 0.5rem;
+}
